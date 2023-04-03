@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos cv.css">
+    <title>MP Diseñador web</title>
+</head>
+
+<body>
+    |
+    <!-- SECCION INICIO-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/MP/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                            <li><a href="#sobremi">SOBRE MI</a></li>
+                            <li><a href="#portfolio">PORTFOLIO</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Iconos del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()"></div>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <!-- Iconos redes sociales-->
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+        </div>
+        </header>
+        <div class="presentacion">
+            <p class="benvenida">Bienvenidxs</p>
+            <h2> Soy <span> Matias Perez</span>, Diseñador web</h2>
+            <p class="descripcion"> RECIBIDO DE LA CARRERA LIC. EN COMUNICACIÓN DIGITAL.
+                TAMBIEN REALICE CURSOS DE DESARROLLADOR EN FRONTEND BRINDADOS POR LA UBA - IALAB.
+                Y ACTUALMENTE REALIZANDO CURSO DE DESARROLLADOR DE DATOS CON PHYTON.
+                ESTOY MUY INTERESADO EN ADQUIRIR DESAFIOS Y AMPLIAR MIS CONOCIMIENTOS EN UNA EMPRESA DONDE TAMBIEN PUEDA
+                MEJORAR EN EL ÁMBITO LABORAL Y PERSONAL</p>
+            <a href="#portfolio">Ir a Portfolio</a>
+        </div>
+        <div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Matias Perez</span> </h2>
+            <h3>Deiseñador Web</h3>
+            <p>Soy egresado de la UNLP como Comunicador superior universitario digital, pero tambien me apasiona todo lo
+                de intenet y el detras de ello. y es por eso que tengo mucho interes y ganas de aprender sobre el mundo de la programacion.
+                Ya que he estudiado fundametos y realizado proyectos en base al diseño web pero me gustaria seguir
+                aprendiendo y formandome personalmente.</p>
+                <a href="#">Descargar CV</a>
+        </div>
+    </section>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/fondo-inicio.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/fondo-inicio.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/fondo-inicio.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="imagenes/fondo-inicio.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+ 
